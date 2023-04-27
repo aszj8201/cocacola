@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #1C1C1C;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    padding: 1.2rem 6rem 2rem 4rem;
+    justify-content: space-between;
+    height: 13%;
+}
+
+header > img{
+    width: 160px;
+    height: 45px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    z-index: 4;
+    margin-right: 1vw;
+}
+
+nav > p{
+    color: white;
+    font-size: 2rem;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    height: 72%;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+section > main{
+padding-bottom: 10rem;
+}
+
+section > main > p{
+    color: white;
+    font-size: 17px;
+}
+
+section > main > span{
+background-color: #696969;
+box-sizing: border-box;
+
+border-radius: 100px;
+width: 100px;
+height: 32px;
+display: block;
+align-items: center;
+margin-left: 5px;
+margin-top: 5px;
+}
+
+section > main > span > p{
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 2px;
+    font-size: 17px;
+}
+
+section > .images{
+margin: 0 auto;
+margin-bottom: 100px;
+width: 600px;
+display: flex;
+justify-content: space-between;
+z-index: 5;
+}
+
+section > .images > img{
+width: 180px;
+margin: 0px 1.5vw;
+translate: 0.5s;
+}
+
+footer{
+    height: 8%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+footer > span{
+    background-color: #696969;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.3vw;
+}
+
+footer > span > img{
+    width: 23px;
+    height: 23px;
+}
+.big{
+    position: absolute;
+    top: -45%;
+    right: -20%;
+    background-color: #696969;
+    border-radius: 50%;
+    width: 1100px;
+    height: 1100px;
+}
