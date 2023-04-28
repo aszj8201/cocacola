@@ -110,10 +110,18 @@ footer > span{
     margin-left: 0.3vw;
 }
 
-footer > span > img{
+}footer > span > img{
     width: 23px;
     height: 23px;
+    -webkit-filter: brightness(0) invert(1); 
+filter: brightness(0) invert(1);
 }
+
+.sps > img{
+    width: 15px;
+}
+
+
 .big{
     position: absolute;
     top: -45%;
